@@ -1,0 +1,186 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+
+}
+
+.navbar ul{  
+    display: inline-flex;
+    margin: 0px;
+    padding-top: 30px;
+
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
+.logo img{
+    width: 100px;
+    margin-top: -40px;
+    margin-left: -80px;
+}
+
+
+.holder .ground-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/messi android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-rz0ro-1080x1919.png");
+    height: 300px;
+    filter: blur(1.2px);
+    padding-bottom: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.holder .ground-text{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #f1f1f1;
+    padding: 12px 4px;
+    width: 15%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.holder .ground-text a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+
+}
+
+#h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    color: crimson;
+    font-size: 27px;
+}
+#about-id {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+hr{
+    border-color: blue;
+}
+
+section{
+    display: flex;
+}
+
+p.colorful {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: crimson;
+    font-size: 18px;
+    font-weight: bold;
+}
+span.line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+    font-size: 15px;
+}
+
+article{
+    padding: 10px;
+    margin: 10px;
+    background: #404040;
+    flex: 1;
+}
+#resizer {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+
+}
+
+
+/*Login Page css style begining*/
+.login-body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    color: crimson;
+}
+.login-body form {
+    padding-left: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+#text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgb(243, 60, 97);
+    color: #f1f1f1;
+    font-weight: bold;
+    width: 8%;
+    padding: 14px 20px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+}
+input[type=text], input[type=password]{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 28%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.cancelbtn{
+    width: auto;
+    padding: 10px 16px;
+    background-color: crimson;
+    margin-right: 18%;
+}
+
+span.separate{
+    padding-top: 16px;
+}
+
+a {
+    color: #f1f1f1 ;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
